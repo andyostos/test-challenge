@@ -15,5 +15,6 @@ function factorialRecursivo(numero) {
   // Ejemplo de uso
   const numero = 5;
   const factorial = factorialRecursivo(numero);
-  
-  console.log(`El factorial de ${numero} es: ${factorial}`);
+ 
+
+  module.exports = factorialRecursivo;

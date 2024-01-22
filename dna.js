@@ -16,6 +16,6 @@ function procesarCadenaADN(cadenaADN) {
  
   const cadenaProcesada = procesarCadenaADN(cadenaADNOriginal);
   
-  console.log(`Cadena original: ${cadenaADNOriginal}`);
-  console.log(`Cadena procesada: ${cadenaProcesada}`);
+
+  module.exports = procesarCadenaADN;
   

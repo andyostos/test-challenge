@@ -1,5 +1,5 @@
 
-let numberFizzBuzz = 5;
+let numberFizzBuzz = 15;
 
 function calcularFizzBuzz(numberFizzBuzz) {
   if (numberFizzBuzz % 3 === 0 && numberFizzBuzz % 5 === 0) {
@@ -14,4 +14,4 @@ function calcularFizzBuzz(numberFizzBuzz) {
 }
 
 
-console.log(calcularFizzBuzz(numberFizzBuzz));
+module.exports = calcularFizzBuzz;
