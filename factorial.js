@@ -1,4 +1,4 @@
-// Función recursiva para calcular el factorial de un número
+
 function factorialRecursivo(numero) {
 
     if (numero < 0) {
@@ -12,7 +12,7 @@ function factorialRecursivo(numero) {
     return numero * factorialRecursivo(numero - 1);
   }
   
-  // Ejemplo de uso
+
   const numero = 5;
   const factorial = factorialRecursivo(numero);
  
